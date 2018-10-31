@@ -11,7 +11,7 @@ get '/team' do
 end
 
 post '/team' do 
-  params
+  @newteam = params
   redirect '/team'
 end
 
