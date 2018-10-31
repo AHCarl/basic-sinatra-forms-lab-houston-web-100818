@@ -12,6 +12,7 @@ end
 
 post '/team' do 
   @newteam = params
+  erb :team
   redirect '/team'
 end
 
